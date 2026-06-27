@@ -10,7 +10,7 @@ export default function PainPoints() {
                 <h2 className="text-3xl font-bold tracking-tight mb-4">
                     The standard is broken.
                 </h2>
-                <div className="w-12 h-1 bg-[var(--primary)]/20 mx-auto rounded-full" />
+                <div className="w-12 h-1 bg-(--primary)/20 mx-auto rounded-full" />
             </div>
             <div className="grid md:grid-cols-3 gap-12">
                 <div className="space-y-4">

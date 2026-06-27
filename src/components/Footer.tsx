@@ -3,7 +3,7 @@ import { TbSquareRoundedLetterZ } from "react-icons/tb";
 
 export default function Footer() {
     return (
-        <footer className="bg-background-neutral py-16">
+        <footer className="py-16">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 px-10">
                 <div className="space-y-2 text-center md:text-left">
                     <div className="flex items-center justify-center md:justify-start gap-2 mb-2 group cursor-default">

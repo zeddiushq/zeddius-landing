@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Public_Sans } from "next/font/google";
+import localFont from "next/font/local";
+import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const publicSans = Public_Sans({
-    subsets: ["latin"],
+const calSans = localFont({
+    src: "./fonts/CalSansUI[wght,GEOM].woff2",
     variable: "--font-sans",
+    weight: "300 700",
     display: "swap",
 });
 
@@ -25,10 +27,8 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body
-                className={`${publicSans.variable} ${geistMono.variable} antialiased`}
-            >
+        <html lang="en" className={`${calSans.variable} ${geistMono.variable}`}>
+            <body className="antialiased">
                 {children}
             </body>
         </html>

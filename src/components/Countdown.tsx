@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { LuLock } from "react-icons/lu";
 
 // target launch date: Wednesday September 2, 2026 @ 9:00 AM PST (UTC‑8)
+// target date is now TBD
 const LAUNCH_DATE = new Date("2026-09-02T09:00:00-08:00");
 
 function formatDateForBadge(d: Date) {

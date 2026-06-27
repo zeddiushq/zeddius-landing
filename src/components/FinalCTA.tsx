@@ -1,6 +1,5 @@
 "use client";
 
-import { LuArrowRight } from "react-icons/lu";
 import Form from "./Form";
 import { useState } from "react";
 import Alert from "./Alert";

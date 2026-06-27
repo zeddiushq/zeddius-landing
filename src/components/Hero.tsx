@@ -41,7 +41,7 @@ export default function Hero() {
             {submitCount > 0 && (
                 <Alert
                     key={submitCount}
-                    message="You're in — start your journey September 2nd."
+                    message="You're in!"
                     variant="success"
                 />
             )}
